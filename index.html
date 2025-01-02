@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<section>
+    <h1>Welcome to My Portfolio</h1>
+    <p>Hi, I'm Sashank! I'm a first-year student with skills in Python, Java, C, C++, and MATLAB. Check out my projects!</p>
+    <img src="{{ url_for('static', filename='profile.jpg') }}" alt="Profile Picture">
+</section>
+{% endblock %}
